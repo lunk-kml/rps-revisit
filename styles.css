@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(159, 226, 191);
+}
+
+.card {
+  margin: 0 auto;
+  width: 44.669vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(236, 255, 220);
+  border-radius: 2.5em;
+}
+
+.gameTitle {
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 1.875rem;
+  font-size: 2.3rem;
+}
+
+.gameText1 {
+  line-height: 1.3em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.playerButton {
+  margin: 0.3125rem;
+  height: 11rem;
+  width: 11rem;
+}
+
+.hiddenText1 {
+  margin-bottom: 0.3125rem;
+  margin-top: 1.5625rem;
+  font-size: 1.5625rem;
+}
+
+.hiddenText2 {
+  margin-top: 0.3125rem;
+  margin-bottom: 1.5625rem;
+  font-size: 1.5625rem;
+}
+
+#resultText {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#reload {
+  font-weight: normal;
+}
